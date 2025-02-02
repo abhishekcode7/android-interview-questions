@@ -58,22 +58,6 @@ Topics you should know in **Kotlin Coroutines** for Android Interview:
 * suspendCoroutine, suspendCancellableCoroutine
 * coroutineScope, supervisorScope
 
-Learn the above-mentioned from the following links:
-
-- [Master Kotlin Coroutines](https://outcomeschool.com/blog/kotlin-coroutines)
-- [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
-- [Launch vs Async in Kotlin Coroutines](https://www.youtube.com/watch?v=B4AfTPpCU5o)
-- [Dispatchers in Kotlin Coroutines](https://outcomeschool.com/blog/dispatchers-in-kotlin-coroutines)
-- [coroutineScope vs supervisorScope](https://outcomeschool.com/blog/coroutinescope-vs-supervisorscope)
-- [suspend function in Kotlin Coroutines](https://outcomeschool.com/blog/suspend-function-in-kotlin-coroutines)
-- [Kotlin withContext vs Async-await](https://outcomeschool.com/blog/kotlin-withcontext-vs-async-await)
-- [CoroutineContext in Kotlin](https://outcomeschool.com/blog/coroutinecontext-in-kotlin)
-- [Callback to Coroutines in Kotlin](https://outcomeschool.com/blog/callback-to-coroutines-in-kotlin)
-- [Retrofit with Kotlin Coroutines](https://outcomeschool.com/blog/retrofit-with-kotlin-coroutines)
-- [Parallel Multiple Network Calls Using Kotlin Coroutines](https://outcomeschool.com/blog/parallel-multiple-network-calls-using-kotlin-coroutines)
-- [Room Database with Kotlin Coroutines](https://outcomeschool.com/blog/room-database-with-kotlin-coroutines)
-- [Unit Testing ViewModel with Kotlin Coroutines and LiveData](https://outcomeschool.com/blog/unit-testing-viewmodel-with-kotlin-coroutines-and-livedata)
-
 ### Kotlin Flow API
 
 Topics you should know in **Kotlin Flow API** for Android Interview:
@@ -85,140 +69,75 @@ Topics you should know in **Kotlin Flow API** for Android Interview:
 * Cold Flow vs Hot Flow
 * StateFlow, SharedFlow, callbackFlow, channelFlow
 
-Learn the above-mentioned from the following links:
-
-- [Mastering Flow API in Kotlin](https://outcomeschool.com/blog/flow-api-in-kotlin)
-- [Creating Flow Using Flow Builder in Kotlin](https://outcomeschool.com/blog/creating-flow-using-flow-builder-in-kotlin)
-- [Terminal Operators in Kotlin Flow](https://outcomeschool.com/blog/terminal-operators-in-kotlin-flow)
-- [Cold Flow vs Hot Flow](https://outcomeschool.com/blog/cold-flow-vs-hot-flow)
-- [StateFlow and SharedFlow](https://outcomeschool.com/blog/stateflow-and-sharedflow)
-- [Long-running tasks in parallel with Kotlin Flow](https://outcomeschool.com/blog/long-running-tasks-in-parallel-with-kotlin-flow)
-- [Retry Operator in Kotlin Flow](https://outcomeschool.com/blog/retry-operator-in-kotlin-flow)
-- [Retrofit with Kotlin Flow](https://outcomeschool.com/blog/retrofit-with-kotlin-flow)
-- [Room Database with Kotlin Flow](https://outcomeschool.com/blog/room-database-with-kotlin-flow)
-- [Kotlin Flow Zip Operator for Parallel Multiple Network Calls](https://outcomeschool.com/blog/kotlin-flow-zip-operator-parallel-multiple-network-calls)
-- [Instant Search Using Kotlin Flow Operators](https://outcomeschool.com/blog/instant-search-using-kotlin-flow-operators)
-- [callbackFlow - Callback to Flow API in Kotlin](https://outcomeschool.com/blog/callback-to-flow-api-in-kotlin)
-- [Exception Handling in Kotlin Flow](https://outcomeschool.com/blog/exception-handling-in-kotlin-flow)
-- [Unit Testing ViewModel with Kotlin Flow and StateFlow](https://outcomeschool.com/blog/unit-testing-viewmodel-with-kotlin-flow-and-stateflow)
-
 ### Kotlin
 
 Android Interview Questions and Answers:
 
-* **15 Kotlin Interview Questions and Answers**: [Check the PDF](https://www.linkedin.com/posts/outcomeschool_kotlin-interview-questions-and-answers-activity-7276115620536954880-cFUa)
+* **What are `companion objects` in Kotlin?** - Static values are stored in them.
 
-* **What is the advantage of using const in Kotlin?** - [Video](https://www.youtube.com/watch?v=3G49ivVxfkU) and [Blog](https://outcomeschool.com/blog/const-in-kotlin)
+* **Extension functions** - ✅
 
-* **When to use lateinit keyword used in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/lateinit-vs-lazy-in-kotlin)
-
-* **What is inline function in Kotlin?** - [Video](https://www.youtube.com/watch?v=GLLI8h67ryo) and [Blog](https://outcomeschool.com/blog/inline-function-in-kotlin)
-
-* **What are `companion objects` in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/companion-object-in-kotlin)
-
-* **Extension functions** - [Learn from here](https://outcomeschool.com/blog/extension-function-in-kotlin)
-
-* **What is a data class in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/data-class-in-kotlin)
-
-* **Remove duplicates from an array in Kotlin** - [Learn from here](https://outcomeschool.com/blog/remove-duplicates-from-an-array-in-kotlin)
-
-* **What is a JvmStatic Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=qBBbOhY_pv4) and [Blog](https://outcomeschool.com/blog/jvmstatic-annotation-in-kotlin)
-
-* **What is a JvmField Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=bx8OZcMbeUE) and [Blog](https://outcomeschool.com/blog/jvmfield-annotation-in-kotlin)
-
-* **What is a JvmOverloads Annotation in Kotlin?** - [Video](https://www.youtube.com/watch?v=fHGsBV9Za8M) and [Blog](https://outcomeschool.com/blog/jvmoverloads-annotation-in-kotlin)
+* **What is a data class in Kotlin?** - ✅
 
 * **noinline in Kotlin** - [Learn from here](https://outcomeschool.com/blog/noinline-in-kotlin)
 
 * **crossinline in Kotlin** - [Learn from here](https://outcomeschool.com/blog/crossinline-in-kotlin)
 
-* **scope functions in Kotlin** - [Learn from here](https://kotlinlang.org/docs/scope-functions.html)
+* **scope functions in Kotlin** - let,run,with,apply,also
 
-* **What is a reified keyword in Kotlin?** - [Learn from here](https://www.youtube.com/watch?v=kD2T84FnTck)
-
-* **lateinit vs lazy in Kotlin** - [Learn from here](https://outcomeschool.com/blog/lateinit-vs-lazy-in-kotlin)
-
-* **What is an `init` block in Kotlin?** - [Video](https://www.youtube.com/watch?v=cb3jOFozJns) and [Blog](https://outcomeschool.com/blog/init-block-in-kotlin)
-
-* **Difference between == and === in Kotlin** - [Video](https://www.youtube.com/watch?v=lJtgxT2OIgQ) and [Blog](https://outcomeschool.com/blog/structural-and-referential-equality-in-kotlin)
-
-* **Advantage of using const in Kotlin** - [Learn from here](https://www.youtube.com/watch?v=3G49ivVxfkU)
-
-* **What are higher-order functions in Kotlin?** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://outcomeschool.com/blog/higher-order-functions-and-lambdas-in-kotlin)
+* **What are higher-order functions in Kotlin?** - ✅
 
 * **Write a function(Higher-Order Function) that returns a function.** - [Check solution here](https://x.com/amitiitbhu/status/1862721662208155800)
 
-* **What are Lambdas in Kotlin** - Learn from here: [Higher-Order Functions and Lambdas in Kotlin](https://outcomeschool.com/blog/higher-order-functions-and-lambdas-in-kotlin)
+* **What are Lambdas in Kotlin** - ✅
 
-* **AssociateBy - List to Map in Kotlin** - [Learn from here](https://outcomeschool.com/blog/associateby-list-to-map-in-kotlin)
-
-* **Open keyword in Kotlin** - [Learn from here](https://outcomeschool.com/blog/open-keyword-in-kotlin)
-
-* **Companion object in Kotlin** - [Learn from here](https://outcomeschool.com/blog/companion-object-in-kotlin)
-
-* **internal visibility modifier in Kotlin** - [Learn from here](https://youtu.be/wOHpuf74-cI)
-
-* **partition - filtering function in Kotlin** - [Learn from here](https://outcomeschool.com/blog/partition-filtering-function-in-kotlin)
-
-* **Infix notation in Kotlin** - [Learn from here](https://outcomeschool.com/blog/infix-notation-in-kotlin)
-
-* **How does the Kotlin Multiplatform work?** - [Learn from here](https://youtu.be/nwfNh6Kd5hI)
-
-* **Suspending vs Blocking in Kotlin Coroutines** - [Learn from here](https://www.youtube.com/watch?v=V2lL_aJp17I)
-
-* **What is runBlocking in Coroutines?** - [Learn from here](https://x.com/outcome_school/status/1861455930061156797)
+* **What is runBlocking in Coroutines?** - ✅
 
 * **What is the meaning of structured concurrency in Kotlin Coroutines?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7267476661967683584-wDCh/)
 
-* **String vs StringBuffer vs StringBuilder** - [Learn from here](https://outcomeschool.com/blog/string-vs-stringbuffer-vs-stringbuilder)
+* **What is the difference between `val` and `var`?** - ✅
 
-* **What is the difference between `val` and `var`?** - [Learn from here](https://stackoverflow.com/questions/44200075/val-and-var-in-kotlin)
+* **How to check if a `lateinit` variable has been initialized?** - variable.isInitialized() ✅
 
-* **How to check if a `lateinit` variable has been initialized?** - [Learn from here](https://outcomeschool.com/blog/lateinit-vs-lazy-in-kotlin)
-
-* **How to do lazy initialization of variables in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/lateinit-vs-lazy-in-kotlin)
+* **How to do lazy initialization of variables in Kotlin?** - ✅
 
 * **What are the visibility modifiers in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/visibility-modifiers.html)
 
-* **What is the equivalent of Java static methods in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/40352684/what-is-the-equivalent-of-java-static-methods-in-kotlin)
+* **What is the equivalent of Java static methods in Kotlin?** - companion object
 
-* **How to create a Singleton class in Kotlin?** - [Learn from here](https://stackoverflow.com/questions/51834996/singleton-class-in-kotlin)
+* **How to create a Singleton class in Kotlin?** - object:
 
 * **What is the difference between `open` and `public` in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/open-keyword-in-kotlin)
 
-* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - Learn from [here](https://kotlinlang.org/docs/scope-functions.html) and [here](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
+* **Explain the use-case of `let`, `run`, `with`, `also`, `apply` in Kotlin.** - ✅
 
-* **How to choose between `apply` and `with`?** - Learn from [here](https://kotlinlang.org/docs/scope-functions.html) and [here](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
-
-* **Difference between List and Array types in Kotlin** - [Learn from here](https://stackoverflow.com/questions/36262305/difference-between-list-and-array-types-in-kotlin)
+* **How to choose between `apply` and `with`?** -  ✅
 
 * **What are `Labels` in Kotlin?** - [Learn from here](https://kotlinlang.org/docs/returns.html)
 
-* **What are Coroutines in Kotlin?** - [Learn from here](https://outcomeschool.com/blog/kotlin-coroutines)
+* **What are Coroutines in Kotlin?** - ✅
 
-* **What is Coroutine Scope?** - [Learn from here](https://outcomeschool.com/blog/kotlin-coroutines)
+* **What is Coroutine Scope?** - ✅
 
-* **Scopes in Kotlin Coroutines Used in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7278639980053217280-8eZO)
+* **Scopes in Kotlin Coroutines Used in Android** - ✅
 
-* **What is Coroutine Context?** - [Learn from here](https://outcomeschool.com/blog/coroutinecontext-in-kotlin)
+* **What is Coroutine Context?** - ✅
 
-* **Launch vs Async in Kotlin Coroutines** - [Learn from here](https://outcomeschool.com/blog/launch-vs-async-in-kotlin-coroutines)
+* **Launch vs Async in Kotlin Coroutines** - ✅
 
-* **Thread.sleep() vs delay() in Kotlin** - [Learn from here](https://x.com/amitiitbhu/status/1812806101944946962)
+* **Thread.sleep() vs delay() in Kotlin** - ✅
 
-* **Explain inline classes in Kotlin** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_outcomeschool-softwareengineering-tech-activity-7251812269804724224-TR6Y)
-
-* **When to use Kotlin sealed classes?** - [Learn from here](https://kotlinlang.org/docs/sealed-classes.html)
+* **When to use Kotlin sealed classes?** - when we have states of similar type of data ,better customization than Enums ✅
 
 * **Tell about the Collections in Kotlin** - [Learn from here](https://kotlinlang.org/docs/collections-overview.html)
 
-* **What does ?: do in Kotlin? (Elvis Operator)** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7269313270669295618-g6kJ)
+* **What does ?: do in Kotlin? (Elvis Operator)** - ✅
 
 * **timeouts in Kotlin Coroutines** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7265684677770846208-Ug0Y)
 
 * **How do you combine multiple coroutine results?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7267827335393873920-v6t3)
 
-* **What is a Job in Coroutines?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7268842850140721153-vw9E)
+* **What is a Job in Coroutines?** - ✅
 
 * **How to Implement Debounce Using Coroutines?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7285163906686164994-tOUK)
 
