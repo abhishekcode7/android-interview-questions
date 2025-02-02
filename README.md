@@ -42,49 +42,49 @@ You can connect with me on:
 ### Android Interview Questions and Answers Playlist
 
 - **Question**: What is an inline function in Kotlin?
-    - **Answer**: [What is an inline function in Kotlin?](https://www.youtube.com/watch?v=GLLI8h67ryo)
+    - **Answer**: replaced with function code during compile time
 - **Question**: What is the advantage of using const in Kotlin?
-    - **Answer**: [What is the advantage of using const in Kotlin?](https://www.youtube.com/watch?v=3G49ivVxfkU)
+    - **Answer**: replaced with value at compile time and prevents variable call overhead
 - **Question**: What is a reified keyword in Kotlin?
     - **Answer**: [What is a reified keyword in Kotlin?](https://www.youtube.com/watch?v=kD2T84FnTck)
 - **Question**: Suspending vs Blocking in Kotlin Coroutines
-    - **Answer**: [Suspending vs Blocking in Kotlin Coroutines](https://www.youtube.com/watch?v=V2lL_aJp17I)
+    - **Answer**: sus does not block thread while Blocking does block thread.
 - **Question**: Launch vs Async in Kotlin Coroutines
-    - **Answer**: [Launch vs Async in Kotlin Coroutines](https://www.youtube.com/watch?v=B4AfTPpCU5o)
+    - **Answer**: launch does not return anything but asnc returns result.
 - **Question**: internal visibility modifier in Kotlin
-    - **Answer**: [internal visibility modifier in Kotlin](https://www.youtube.com/watch?v=wOHpuf74-cI)
+    - **Answer**: class only available inside module.
 - **Question**: open keyword in Kotlin
-    - **Answer**: [open keyword in Kotlin](https://www.youtube.com/watch?v=bfpNDWNE6I0)
+    - **Answer**: OPEN for inheritance , classes are final by default.
 - **Question**: lateinit vs lazy in Kotlin
-    - **Answer**: [lateinit vs lazy in Kotlin](https://www.youtube.com/watch?v=IU2ZktdM-fo)
+    - **Answer**: done.
 - **Question**: What is Multidex in Android?
-    - **Answer**: [What is Multidex in Android?](https://www.youtube.com/watch?v=R0zd8lmHnmE)
+    - **Answer**: done
 - **Question**: How does the Android Push Notification system work?
-    - **Answer**: [How does the Android Push Notification system work?](https://www.youtube.com/watch?v=810IFG2sWlc)
+    - **Answer**: done
 - **Question**: How does the Kotlin Multiplatform work?
     - **Answer**: [How does the Kotlin Multiplatform work?](https://www.youtube.com/watch?v=nwfNh6Kd5hI)
 - **Question**: What is a ViewModel and how is it useful?
-    - **Answer**: [What is a ViewModel and how is it useful?](https://www.youtube.com/watch?v=ORtieK5f_zg)
+    - **Answer**: Viewmodel persists data in lifecycle conscious way.
 - **Question**: Is it possible to force the Garbage Collection in Android?
-    - **Answer**: [Is it possible to force Garbage Collection in Android?](https://www.youtube.com/watch?v=fPEjpFKo1-Q)
+    - **Answer**: No, we can request by calling gc.collect() , but cannot force.
 - **Question**: What is a JvmStatic Annotation in Kotlin?
-    - **Answer**: [What is a JvmStatic Annotation in Kotlin?](https://www.youtube.com/watch?v=qBBbOhY_pv4)
+    - **Answer**: tells compiler to create a static implementation of method which can be called by java.
 - **Question**: init block in Kotlin
-    - **Answer**: [init block in Kotlin](https://www.youtube.com/watch?v=cb3jOFozJns)
+    - **Answer**: runs after primary constructor nd before secondary , used to initialise variables.
 - **Question**: JvmField Annotation in Kotlin
-    - **Answer**: [JvmField Annotation in Kotlin](https://www.youtube.com/watch?v=bx8OZcMbeUE)
+    - **Answer**: exposes variables as field and no need to call getters, setters.
 - **Question**: singleTask launchMode in Android
-    - **Answer**: [singleTask launchMode in Android](https://www.youtube.com/watch?v=WYkQEnm4jeI)
+    - **Answer**: done
 - **Question**: Difference between == and === in Kotlin
-    - **Answer**: [Difference between == and === in Kotlin](https://www.youtube.com/watch?v=lJtgxT2OIgQ)
+    - **Answer**: done
 - **Question**: JvmOverloads Annotation in Kotlin
-    - **Answer**: [JvmOverloads Annotation in Kotlin](https://www.youtube.com/watch?v=fHGsBV9Za8M)
+    - **Answer**: done
 - **Question**: Why is it recommended to use only the default constructor to create a Fragment?
-    - **Answer**: [Why is it recommended to use only the default constructor to create a Fragment?](https://www.youtube.com/watch?v=CitBt0FZFIc)
+    - **Answer**: done
 - **Question**: Why do we need to call setContentView() in onCreate() of Activity class?
-    - **Answer**: [Why do we need to call setContentView() in onCreate() of Activity class?](https://www.youtube.com/watch?v=U1aHAt7XC5I)
+    - **Answer**: done
 - **Question**: When only onDestroy is called for an activity without onPause() and onStop()?
-    - **Answer**: [When only onDestroy is called for an activity without onPause() and onStop()?](https://www.youtube.com/watch?v=B2kY_ckZa-g)
+    - **Answer**: when onDestroy called in onCreate.
 
 ### Kotlin Coroutines
 
