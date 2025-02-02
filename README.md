@@ -147,30 +147,22 @@ Android Interview Questions and Answers:
 
 #### Base
 
-* **Why does an Android App lag?** - [Learn from here](https://outcomeschool.com/blog/android-app-lag)
+* **Why does an Android App lag?** - gc runs frequently,image loading libraries not used in RV ✅
 
-* **What is `Context`? How is it used?** - [Context In Android Application](https://outcomeschool.com/blog/context-in-android-application)
+* **What is `Context`? How is it used?** - ✅
 
-* **Tell all the Android application components.** - [Learn from here](https://developer.android.com/guide/components/fundamentals.html#Components)
+* **Tell all the Android application components.** - Activities, Services, Broadcast Receivers, Content providers ✅
 
-* **What is the project structure of an Android Application?** - [Learn from here](https://developer.android.com/studio/projects)
-
-* **What is `AndroidManifest.xml`?** - [Learn from here](https://developer.android.com/guide/topics/manifest/manifest-intro)
+* **What is `AndroidManifest.xml`?** - ✅
 
 * **What is the `Application` class?**
     - The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
 
 #### Activity and Fragment
 
-* **Why is it recommended to use only the default constructor to create a `Fragment`?** - Learn from [video](https://www.youtube.com/watch?v=CitBt0FZFIc) and [blog](https://outcomeschool.com/blog/default-constructor-to-create-a-fragment)
+* **What is `Activity` and its lifecycle?** - ✅
 
-* **What is `Activity` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/components/activities/activity-lifecycle)
-
-* **What is the difference between onCreate() and onStart()** - [Learn from here](https://developer.android.com/guide/components/activities/activity-lifecycle)
-
-* **When only onDestroy is called for an activity without onPause() and onStop()?** - [Learn from here](https://www.youtube.com/watch?v=B2kY_ckZa-g)
-
-* **Why do we need to call setContentView() in onCreate() of Activity class?** - [Learn from here](https://www.youtube.com/watch?v=U1aHAt7XC5I)
+* **What is the difference between onCreate() and onStart()** - onCreate view is initialized , onStart view is made visible ✅
 
 * **What is onSaveInstanceState() and onRestoreInstanceState() in activity?**
     - onSaveInstanceState() - This method is used to store data before pausing the activity.
@@ -178,7 +170,7 @@ Android Interview Questions and Answers:
 
 * **What is `Fragment` and its lifecycle?** - [Learn from here](https://developer.android.com/guide/fragments/lifecycle)
 
-* **What are "launchMode"?** - [Learn from here](https://outcomeschool.com/blog/singletask-launchmode-in-android) and [singleTask launchMode in Android](https://youtu.be/WYkQEnm4jeI)
+* **What are "launchMode"?** - standard, singleTop, singleTask, SingleInstance. ✅
 
 * **What is the difference between a `Fragment` and an `Activity`? Explain the relationship between the two.** - [Learn from here](https://stackoverflow.com/questions/10478233/why-fragments-and-when-to-use-fragments-instead-of-activities)
 
@@ -192,7 +184,7 @@ Android Interview Questions and Answers:
 
 * **What is the difference between adding/replacing fragment in backstack?** - [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345)
 
-* **How would you communicate between two Fragments?**
+* **How would you communicate between two Fragments?** - interface , shared viewmodel ✅
 
 * **What is retained `Fragment`?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7265620144289193984-hlpH)
 
@@ -203,11 +195,11 @@ Android Interview Questions and Answers:
 
 * **Optimizing layouts in Android** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7269208182390951936-dAg3)
 
-* **What is `View` in Android?**
+* **What is `View` in Android?** - Rectangular area on screen with which user can interact ✅
 
 * **Difference between `View.GONE` and `View.INVISIBLE`?** - [Learn from here](https://stackoverflow.com/questions/11556607/android-difference-between-invisible-and-gone)
 
-* **Can you a create custom view? How?**
+* **Can you a create custom view? How?** - Yes, programatically. ✅
 
 * **What are ViewGroups and how they are different from the Views?**
     - View: View objects are the basic building blocks of User Interface(UI) elements in Android. View is a simple rectangle box which responds to the user’s actions. Examples are EditText, Button, CheckBox etc. View refers to the android.view.View class, which is the base class of all UI classes.
@@ -219,55 +211,55 @@ Android Interview Questions and Answers:
 
 * **Relative Layout vs Linear Layout.**
 
-* **Tell about Constraint Layout**
+* **Tell about Constraint Layout** ✅
 
 * **Do you know what is the view tree? How can you optimize its depth?** - [Learn from here](https://developer.android.com/reference/android/view/ViewTreeObserver)
 
 #### Displaying Lists of Content
 
-* **What is the difference between `ListView` and `RecyclerView`?** - [Learn from here](https://stackoverflow.com/questions/26728651/recyclerview-vs-listview)
+* **What is the difference between `ListView` and `RecyclerView`?** - RV enforces Viewholder , ListView only allows vertical scrolling , RV has item animations ✅
 
-* **How does the RecyclerView work?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7268187299811606528-u2_w)
+* **How does the RecyclerView work?** - ✅
 
 * **RecyclerView Optimization - Scrolling Performance Improvement** - [Learn from here](https://outcomeschool.com/blog/recyclerview-optimization)
 
 * **Optimizing Nested RecyclerView** - [Learn from here](https://outcomeschool.com/blog/setrecycledviewpool-for-optimizing-nested-recyclerview)
 
-* **How does RecyclerView improve performance over ListView?**
+* **How does RecyclerView improve performance over ListView?** - ✅
 
 * **What are the components of a RecyclerView?**
 
-* **Explain the role of RecyclerView.Adapter and RecyclerView.ViewHolder** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7274733205927182337-hvTG)
+* **Explain the role of RecyclerView.Adapter and RecyclerView.ViewHolder** - ✅
 
 * **What is a LayoutManager in RecyclerView?**
 
-* **How do you handle multiple view types in a single RecyclerView?**
+* **How do you handle multiple view types in a single RecyclerView?** - give id to each view ✅
 
 * **What is DiffUtil and how does it improve RecyclerView performance?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7279435764973686785-pfiQ)
 
 * **What is the purpose of RecyclerView.setHasFixedSize(true)?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7282252857637007361-thzv/)
 
-* **How do you update a specific item in RecyclerView?**
+* **How do you update a specific item in RecyclerView?** - notifyItemChanged(index) ✅
 
 * **What is `SnapHelper`?** - Learn from here: [SnapHelper](https://outcomeschool.com/blog/snaphelper)
 
 #### Dialogs and Toasts
 
-* **What is `Dialog` in Android?** - [Learn from here](https://developer.android.com/guide/topics/ui/dialogs)
+* **What is `Dialog` in Android?** - ✅
 
-* **What is `Toast` in Android?** - [Learn from here](https://developer.android.com/guide/topics/ui/notifiers/toasts)
+* **What is `Toast` in Android?** - ✅
 
 * **What the difference between `Dialog` and `Dialog Fragment`?** - [Learn from here](https://stackoverflow.com/questions/7977392/android-dialogfragment-vs-dialog)
 
 #### Intents and Broadcasting
 
-* **What is `Intent`?** - [Learn from here](https://developer.android.com/guide/components/intents-filters)
+* **What is `Intent`?** - action we want to perform ✅
 
-* **What is an Implicit `Intent`?** - [Learn from here](https://developer.android.com/guide/components/intents-filters)
+* **What is an Implicit `Intent`?** - ✅
         
-* **What is an Explicit `Intent`?** - [Learn from here](https://developer.android.com/guide/components/intents-filters)
+* **What is an Explicit `Intent`?** - ✅
 
-* **What is a `BroadcastReceiver`?** - [Learn from here](https://developer.android.com/guide/components/broadcasts)
+* **What is a `BroadcastReceiver`?** - ✅
 
 * **What is a Sticky `Intent`?**
     - Sticky Intents allows communication between a function and a service. sendStickyBroadcast() performs a sendBroadcast(Intent) known as sticky, i.e. the Intent you are sending stays around after the broadcast is complete, so that others can quickly retrieve that data through the return value of registerReceiver(BroadcastReceiver, IntentFilter). For example, if you take an intent for ACTION_BATTERY_CHANGED to get battery change events: When you call registerReceiver() for that action — even with a null BroadcastReceiver — you get the Intent that was last Broadcast for that action. Hence, you can use this to find the state of the battery without necessarily registering for all future state changes in the battery.
@@ -285,7 +277,7 @@ Android Interview Questions and Answers:
 
 * **What is Service?** - [Learn from here](https://developer.android.com/guide/components/services)
 
-* **On which thread does a Service run in Android?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7283717741130215424-Vn39)
+* **On which thread does a Service run in Android?** - main by default ✅
 
 * **Service vs IntentService** - [Learn from here](https://stackoverflow.com/questions/15524280/service-vs-intentservice-in-the-android-platform)
 
@@ -295,13 +287,13 @@ Android Interview Questions and Answers:
 
 #### Inter-process Communication
 
-* **How can two distinct Android apps interact?** - [Learn from here](https://developer.android.com/training/basics/intents)
+* **How can two distinct Android apps interact?** - intents, broadcasts, sharedpreferences , contentproviders.
 
 * **Is it possible to run an Android app in multiple processes? How?** - [Learn from here](https://stackoverflow.com/questions/6567768/how-can-an-android-application-have-more-than-one-process)
 
 * **What is AIDL? Enumerate the steps in creating a bounded service through AIDL.** - [Learn from here](https://developer.android.com/guide/components/aidl)
 
-* **What can you use for background processing in Android?** - [Learn from here](https://developer.android.com/guide/background)
+* **What can you use for background processing in Android?** - coroutines,services,workmanager ✅
 
 * **What is a `ContentProvider` and what is it typically used for?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7268117553040764931-64fI)
 
@@ -319,7 +311,7 @@ Android Interview Questions and Answers:
 
 * **Explain `Looper`, `Handler`, and `HandlerThread`.**
 
-* **Android Memory Leak and Garbage Collection**
+* **Android Memory Leak and Garbage Collection** ✅
 
 * **Can you explain the difference between a Runnable and a Thread in Android?** - [Learn from here](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7279784055284420609-Xa8b)
 
@@ -337,9 +329,9 @@ Android Interview Questions and Answers:
 
 * **What is ORM? How does it work?**
 
-* **How would you preserve the `Activity` state during a screen rotation?** - [Learn from here](https://www.youtube.com/watch?v=ORtieK5f_zg)
+* **How would you preserve the `Activity` state during a screen rotation?** - ✅
 
-* **What are different ways to store data in your Android app?**
+* **What are different ways to store data in your Android app?** - preference , internal storage, database, server. ✅
 
 * **Explain Scoped Storage in Android.**
 
@@ -358,11 +350,11 @@ Android Interview Questions and Answers:
 
 * **What are the best practices for using text in Android?**
 
-* **How to implement Dark mode in any application?**
+* **How to implement Dark mode in any application?** - Theme ✅
 
 #### Memory Optimizations
 
-* **What is the `onTrimMemory()` method?** - [Learn from here](https://www.linkedin.com/posts/amit-shekhar-iitbhu_softwareengineer-androiddev-android-activity-7267752779727679488--kk4)
+* **What is the `onTrimMemory()` method?** - called when system has low memory and we can clean up space ✅
 
 * **How to identify and fix OutOfMemory issues?**
 
@@ -371,8 +363,6 @@ Android Interview Questions and Answers:
 #### Battery Life Optimizations
 
 * **How to reduce battery usage in an android application?**
-
-* **What is Doze? What about App Standby?** - [Learn from here](https://developer.android.com/training/monitoring-device-state/doze-standby)
 
 * **What is `overdraw`?** - [Learn from here](https://developer.android.com/topic/performance/rendering/overdraw.html)
 
@@ -933,39 +923,3 @@ Android Interview Questions and Answers:
 * **Android Push Notification Flow using FCM.** Learn from here: [Android Push Notification Flow using FCM](https://outcomeschool.com/blog/android-push-notification-flow-using-fcm)
 
 * **How to show local Notification at an exact time?**
-
-### Data Structures and Algorithms
-
-* **Android Developer should know these Data Structures for Next Interview** - [Check here](https://outcomeschool.com/blog/android-developer-should-know-these-data-structures-for-next-interview)
-
-### High-quality videos to prepare for Android Interview - [Amit Shekhar YouTube Channel](https://www.youtube.com/@amitshekhar)
-
-### High-quality blogs to prepare for Android Interview - [Check here - Outcome School Blog](https://outcomeschool.com/blog)
-
-### Found this project useful :heart:
-
-* Support by clicking the :star: button on the upper right of this page. :v:
-
-You can connect with me on:
-
-- [Twitter](https://twitter.com/amitiitbhu)
-- [YouTube](https://www.youtube.com/@amitshekhar)
-- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
-- [GitHub](https://github.com/amitshekhariitbhu)
-
-### License
-```
-   Copyright (C) 2024 Amit Shekhar
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
