@@ -178,10 +178,6 @@ Android Interview Questions and Answers:
     - When you have some UI components to be used across various activities
     - When multiple views can be displayed side by side just like ViewPager
 
-* **What is the difference between FragmentPagerAdapter vs FragmentStatePagerAdapter?**
-    - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
-    - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment.
-
 * **What is the difference between adding/replacing fragment in backstack?** - [Learn from here](https://stackoverflow.com/questions/24466302/basic-difference-between-add-and-replace-method-of-fragment/24466345)
 
 * **How would you communicate between two Fragments?** - interface , shared viewmodel ✅
