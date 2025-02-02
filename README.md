@@ -392,45 +392,33 @@ Android Interview Questions and Answers:
 
 * **What is Multidex in Android?** - [Learn from here](https://www.youtube.com/watch?v=R0zd8lmHnmE)
 
-* **Can you manually call the Garbage collector?** - [Is it possible to force Garbage Collection in Android?](https://www.youtube.com/watch?v=fPEjpFKo1-Q)
-
 #### Android Jetpack
 
 * **What is Android Jetpack and why to use this?**
 
-* **What is a ViewModel and how is it useful?** Learn: [What is a ViewModel and how is it useful?](https://youtu.be/ORtieK5f_zg)
-
-* **SharedViewModel in Android** Learn: [SharedViewModel in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7262328327531577344-fwSE)
-
 * **What are Android Architecture Components?**
 
-* **What is LiveData in Android?**
+* **What is LiveData in Android?** - ✅
 
 * **How LiveData is different from ObservableField?**
 
 * **What is the difference between setValue and postValue in LiveData?** Learn: [setValue() vs postValue() in LiveData](https://www.linkedin.com/posts/outcomeschool_softwareengineer-androiddev-android-activity-7274283452563107840-SXXl)
 
-* **How to share ViewModel between Fragments in Android?** Learn: [SharedViewModel in Android](https://www.linkedin.com/posts/outcomeschool_outcomeschool-softwareengineering-tech-activity-7262328327531577344-fwSE)
-
-* **Explain WorkManager and its use cases.**
+* **Explain WorkManager and its use cases.** - ✅
 
 * **How does ViewModel work internally?**
 
 #### Others
 
-* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** - [Learn from here](https://outcomeschool.com/blog/parcelable-vs-serializable)
+* **What is the difference between Serializable and Parcelable? Which is the best approach in Android?** - ✅
 
-* **Why Bundle class is used for data passing and why cannot we use simple Map data structure?** - [Learn from here](https://developer.android.com/guide/components/activities/parcelables-and-bundles)
+* **Why Bundle class is used for data passing and why cannot we use simple Map data structure?** - ✅
 
-* **How do you troubleshoot a crashing application?** - [Learn from here](https://developer.android.com/topic/performance/vitals/crash)
-
-* **Explain the Android push notification system?** Learn from here: [How does the Android push notification system work?](https://youtu.be/810IFG2sWlc)
+* **How do you troubleshoot a crashing application?** - ✅
 
 * **What is AAPT?** - [Learn from here](https://developer.android.com/studio/command-line/aapt2)
 
 * **FlatBuffers vs JSON.**
-
-* **`HashMap`, `ArrayMap` and `SparseArray`** - [Learn from here](https://outcomeschool.com/blog/optimization-using-arraymap-and-sparsearray)
 
 * **What are Annotations?** - [Learn from here](https://outcomeschool.com/blog/creating-custom-annotations)
 
@@ -677,16 +665,6 @@ Android Interview Questions and Answers:
   - Yes, an interface can implement another interface (and more than one), but it needs to use `extends`, rather than `implements` keyword. And while you can not remove methods from parent interface, you can add new ones freely to your sub-interface.
 
 * **What is Polymorphism? What about Inheritance?**
-
-#### Collections and Generics
-
-* **Arrays Vs ArrayLists** - [Learn from here](https://stackoverflow.com/questions/32020000/what-is-the-difference-between-an-array-arraylist-and-a-list/32020072)
-
-* **HashSet Vs TreeSet** - [Learn from here](https://stackoverflow.com/questions/25602382/java-hashset-vs-treeset-when-should-i-use-over-other)
-
-* **HashMap Vs Set** - [Learn from here](https://stackoverflow.com/questions/2773824/difference-between-hashset-and-hashmap)
-
-* **Explain Generics in Java?**
 
 #### Objects and Primitives
 
