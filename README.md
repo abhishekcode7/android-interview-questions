@@ -20,8 +20,6 @@
     - **Answer**: done
 - **Question**: How does the Android Push Notification system work?
     - **Answer**: done
-- **Question**: How does the Kotlin Multiplatform work?
-    - **Answer**: [How does the Kotlin Multiplatform work?](https://www.youtube.com/watch?v=nwfNh6Kd5hI)
 - **Question**: What is a ViewModel and how is it useful?
     - **Answer**: Viewmodel persists data in lifecycle conscious way.
 - **Question**: Is it possible to force the Garbage Collection in Android?
@@ -43,7 +41,7 @@
 - **Question**: Why do we need to call setContentView() in onCreate() of Activity class?
     - **Answer**: done
 - **Question**: When only onDestroy is called for an activity without onPause() and onStop()?
-    - **Answer**: when onDestroy called in onCreate.
+    - **Answer**: when finish() called in onCreate.
 
 ### Kotlin Coroutines
 
